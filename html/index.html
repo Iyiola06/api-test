@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="fetch"></div>
+    <script type="module">
+        import { fetchData, uploadData, deleteData, testSystem } from "../controllers/controllers.js";
+
+        // testSystem();
+       const blog = fetchData('home');
+       console.log(blog);
+       blog.forEach(element => {
+        console.log(element.hash_id);
+        
+       });
+       
+
+    </script>
+
+</body>
+</html>
