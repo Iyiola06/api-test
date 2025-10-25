@@ -11,7 +11,7 @@
    ================================================ */
 
 // ⚙️ CONFIGURATION
-const BASE_URL = "http://sulva.api.iyi"; // <-- replace this
+const BASE_URL = "http://apiii-backend.great-site.net"; // <-- replace this
 
 // ----------------------------------------------------
 // 🚀 AUTO-INJECT TOASTIFY LIBRARY (CSS + JS)
